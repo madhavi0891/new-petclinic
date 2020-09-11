@@ -24,7 +24,7 @@
 		<spring-cloud.version>Hoxton.SR6</spring-cloud.version>
 		<wavefront.version>2.0.1-SNAPSHOT</wavefront.version>
 
-		<spring-boot.build-image.imageName>${REPOSITORY_PREFIX}/visits-service</spring-boot.build-image.imageName>
+		<spring-boot.build-image.imageName>madavi/visits-service</spring-boot.build-image.imageName>
 	</properties>
 
 	<dependencies>
