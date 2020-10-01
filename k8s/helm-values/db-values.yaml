@@ -1,6 +1,6 @@
 ## Cluster domain
 ##
-clusterDomain: <DOMAIN>
+clusterDomain: cluster.local 
 
 ## Admin (root) credentials
 ##
@@ -8,7 +8,7 @@ root:
   ## MySQL admin password
   ## ref: https://github.com/bitnami/bitnami-docker-mysql#setting-the-root-password-on-first-run
   ##
-  password: <PASSWORD>
+  password: root
  
 ## Custom user/db credentials
 ##
@@ -17,8 +17,8 @@ db:
   ## ref: https://github.com/bitnami/bitnami-docker-mysql#creating-a-database-user-on-first-run
   ## Note that this user should be different from the MySQL replication user (replication.user)
   ##
-  user: admin
-  password: <PASSWORD>
+  user: root
+  password: root
   ## Database to create
   ## ref: https://github.com/bitnami/bitnami-docker-mysql#creating-a-database-on-first-run
   ##
